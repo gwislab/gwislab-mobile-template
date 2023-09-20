@@ -44,13 +44,13 @@ const CustomDrawer = (props: ICustomDrawerProps) => {
             <Text
               text={connectedUserName}
               marginBottom={4}
-              fontFamily="semiBold"
+              fontWeight="semiBold"
             />
             <Text
               text={"Voir profile"}
               variant="small"
               color="primary"
-              fontFamily="semiBold"
+              fontWeight="semiBold"
             />
           </View>
           <DrawerItemList {...rest} />

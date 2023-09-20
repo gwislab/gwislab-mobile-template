@@ -16,7 +16,7 @@ const Text = ({
   row,
   marginBottom,
   numberOfLines,
-  fontFamily = "regular",
+  fontWeight = "regular",
   children,
   marginRight,
   paddingLeft,
@@ -41,15 +41,14 @@ const Text = ({
   const colorStyle = {
     color: Colors[color || "grey800"],
   };
-
-  const fontFamilyStyle = { fontFamily };
+  const fontWeightStyle = { fontFamily: fontWeight };
 
   const onClickHref = () => Linking.openURL(href || appInfo.website);
 
   return (
     <AppText
       style={[
-        fontFamilyStyle,
+        fontWeightStyle,
         variantStyle,
         colorStyle,
         center ? styles.center : undefined,

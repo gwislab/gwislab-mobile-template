@@ -9,7 +9,7 @@ export interface ITextProps {
   bgColor?: IColor;
   width?: number | `${number}%`;
   variant?: "normal" | "title" | "bigTitle" | "small";
-  fontFamily?:
+  fontWeight?:
     | "regular"
     | "italic"
     | "bold"

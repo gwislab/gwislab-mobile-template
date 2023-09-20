@@ -52,10 +52,18 @@ export interface ILanguageState {
   systemLanguage: string;
 }
 
+export interface IUploadedFile {
+  id: string;
+  url: string;
+  name: string;
+  createdBy: string;
+}
+
 export interface ISystemPersistState {
   token: string | null;
   isUserInitialized: boolean;
   user: any;
+  uploadedImages: Record<string, IUploadedFile>;
 }
 
 export interface IAppState {

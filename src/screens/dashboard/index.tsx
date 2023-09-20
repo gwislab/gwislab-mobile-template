@@ -44,7 +44,7 @@ const UserDashboardScreen = () => {
         center: true,
         title: t("Gwislab"),
         titleOptions: {
-          fontFamily: "bold",
+         fontFamily: "bold",
           paddingRight: 10,
         },
         showUser: true,
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   },
   tabViewLabel: {
     color: Colors.grey800,
-    fontFamily: "semiBold",
+   fontFamily: "semiBold",
     textTransform: "capitalize",
     fontSize: 16,
   },

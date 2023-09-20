@@ -33,7 +33,7 @@ const WelcomeScreen = () => {
           color="primary"
           variant="bigTitle"
           text="Gwislab"
-          fontFamily="bold"
+          fontWeight="bold"
         />
         <Text
           color="grey200"
@@ -46,7 +46,7 @@ const WelcomeScreen = () => {
             color="grey800"
             variant="small"
             text={t("preferred language")}
-            fontFamily="italic"
+            fontWeight="italic"
             center
             marginBottom={20}
           />
@@ -69,7 +69,7 @@ const WelcomeScreen = () => {
                   variant="small"
                   text={t(lang)}
                   marginBottom={0}
-                  fontFamily="italic"
+                  fontWeight="italic"
                 />
               </TouchableOpacity>
             ))}

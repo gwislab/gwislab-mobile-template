@@ -30,7 +30,7 @@ const CustomMenuTrigger = ({
       <Menu>
         <MenuTrigger style={SharedStyles.row}>
           <Text
-            fontFamily="semiBold"
+            fontWeight="semiBold"
             text={selectedItem.label || placeholder}
             marginBottom={border ? 0 : -9}
             numberOfLines={1}

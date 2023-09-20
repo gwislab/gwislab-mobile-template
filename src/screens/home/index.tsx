@@ -59,7 +59,7 @@ const HomeScreen = () => {
         variant={"title"}
         text={t("Example title")}
         center
-        fontFamily="bold"
+        fontWeight="bold"
       />
       <Text text={t("Example title")} center style={styles.textStyle} />
 

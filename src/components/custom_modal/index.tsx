@@ -93,7 +93,7 @@ const CustomModal = () => {
   const sharedComponent = (
     <View style={styles.sharedContainerStyle}>
       <View style={styles.titleContainer}>
-        <Text text={placeholder} marginBottom={0} fontFamily="bold" />
+        <Text text={placeholder} marginBottom={0} fontWeight="bold" />
         <TouchableOpacity onPress={handleOnClose}>
           <Icon name="close" color={Colors.primary} size={24} />
         </TouchableOpacity>

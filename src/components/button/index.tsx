@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   title: {
-    fontFamily: "regular",
+   fontFamily: "regular",
     color: Colors.normal,
   },
   white: {

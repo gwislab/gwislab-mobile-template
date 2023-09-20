@@ -83,7 +83,7 @@ const Header = ({
               <View>
                 <Text
                   text={user?.fullName || "not logged in"}
-                  fontFamily="semiBold"
+                  fontWeight="semiBold"
                   marginBottom={0}
                   capitalize
                 />
@@ -101,7 +101,7 @@ const Header = ({
         {title ? (
           <Text
             text={title}
-            fontFamily="semiBold"
+            fontWeight="semiBold"
             variant="title"
             style={[styles.title, center ? styles.titleCenter : undefined]}
             onPress={goBack}
