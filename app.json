@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "myakawo",
+    "scheme": "myakawo",
+    "slug": "myakawo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./src/assets/images/no_documents.png",
+      "backgroundColor": "#FEF9B0"
+    },
+    "ios": {
+      "entitlements": {
+        "com.apple.developer.networking.wifi-info": true
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photo to permit you to be able to upload your profile.",
+          "cameraPermission": "Allow $(PRODUCT_NAME) to open the camera"
+        }
+      ]
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    }
+  }
+}

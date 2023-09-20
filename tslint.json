@@ -1,0 +1,17 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint-react-native",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "no-unused-styles": true,
+        "no-console": [
+            true,
+            "debug",
+            "time",
+            "timeEnd",
+            "trace"
+        ]
+    }
+}
