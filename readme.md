@@ -58,6 +58,11 @@ note that if this is not working then we might have to fight
 testing bold and italic
 testing bold italic underline
 
+
+npx create-expo-app netsales --template
+
+https://docs.expo.dev/routing/installation/
+
 ```
 
 
